@@ -17,6 +17,8 @@ public class FollowPlayer : MonoBehaviour
     void LateUpdate()
     {
         //offset camera behind player by adding to player's position
+        //switchCamera = Input.GetAxis("Submit");
+
         transform.position = player.transform.position + offset;
 
     }
